@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": "3c8b",
+      "name": "adada",
+      "count": 21,
+      "size": {
+        "width": 2121,
+        "height": 2121
+      },
+      "weight": "2121",
+      "imageUrl": "dadada",
+      "comments": []
+    },
+    {
+      "id": "9f95",
+      "name": "das",
+      "count": 1,
+      "size": {
+        "width": 1,
+        "height": 1
+      },
+      "weight": "1",
+      "imageUrl": "dweqq",
+      "comments": []
+    }
+  ],
+  "comments": [
+    {
+      "id": "7fa0",
+      "productId": "3c8b",
+      "description": "adadasda",
+      "date": "11.06.2024, 20:19:49"
+    }
+  ]
+}
