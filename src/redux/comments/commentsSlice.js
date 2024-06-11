@@ -7,13 +7,12 @@ const initialState = {
     error: null,
 };
 
-// Async thunk for fetching comments
+
 export const fetchComments = createAsyncThunk('comments/fetchComments', async () => {
     const response = await axios.get('http://localhost:3001/comments');
     return response.data;
 });
 
-// Async thunk for deleting a comment
 export const deleteComment = createAsyncThunk('comments/deleteComment', async (commentId, { getState }) => {
     const state = getState();
     const comment = state.comments.comments.find((c) => c.id === commentId);

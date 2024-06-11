@@ -28,7 +28,7 @@ const AddProductForm = () => {
       comments: [],
     };
     dispatch(addProduct(newProduct));
-    navigate('/products'); // Redirect to the product list after adding
+    navigate('/products');
   };
 
   return (

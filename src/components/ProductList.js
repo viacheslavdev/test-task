@@ -1,5 +1,3 @@
-// ProductList.js
-
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchProducts } from '../redux/products/productsSlice';
